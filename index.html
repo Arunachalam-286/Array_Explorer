@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Array Explorer</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Array Explorer</h1>
+      <div class="input_container">
+        <input
+          type="text"
+          id="num"
+          placeholder="Enter the numbers separated by commas"
+        />
+        <!-- <button onclick="print()">Submit</button> -->
+        <button onclick="sort()">Sort</button>
+        <button onclick="reverse()">Reverse</button>
+        <button onclick="findEven()">Find Evens</button>
+        <button onclick="findOdd()">Find Odds</button>
+        <button onclick="findMax()">Find Max</button>
+        <button onclick="findMin()">Find Min</button>
+        <button onclick="filter()">Filter > Value</button>
+        <input type="number" id="filterValue" placeholder="Enter value" />
+
+        <div class="result" id="result"></div>
+      </div>
+    </div>
+    <script src="app.js"></script>
+  </body>
+</html>
